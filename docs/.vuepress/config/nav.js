@@ -9,7 +9,7 @@ module.exports = [
   },
   {
     text: '后端',
-    link: '/back-end/'
+    link: '/back-end/guide/introduction'
   },
   {
     text: '内置功能',

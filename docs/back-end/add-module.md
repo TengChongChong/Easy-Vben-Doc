@@ -6,20 +6,14 @@ title: 添加模块
 
 以Idea为例
 
--
-    1. 选择`New Module`，选择创建`Maven`模块并点击`Next`
+1. 选择`New Module`，选择创建`Maven`模块
 <div align="center" style="margin: 12px 0">
-  ![New Module](/assets/images/idea/new-module-1.png)
+  ![New Module](/assets/images/idea/add-module.png)
 </div>
 
--
-    2. 选择`Parent（默认为Easy Vben）`，填写`Name`点击`Finish`
-<div align="center" style="margin: 12px 0">
-   ![New Module](/assets/images/idea/new-module-2.png)
-</div>
+2. 选择`Parent（默认为easy-vben）`，填写`Name`点击`Finish`
 
--
-    3. 打开新建模块中的`pom.xml`文件添加以下内容
+3. 打开新建模块中的`pom.xml`文件添加以下内容
 
 ```xml
 <packaging>jar</packaging>
@@ -46,8 +40,7 @@ title: 添加模块
 </build>
 ```
 
--
-    4. 打开`/easy-vben/pom.xml`，在`dependencyManagement > dependencies`添加以下内容
+4. 打开`/easy-vben/pom.xml`，在`dependencyManagement > dependencies`添加以下内容
 
 ```xml
 <dependency>
@@ -58,8 +51,7 @@ title: 添加模块
 </dependency>
 ```
 
--
-    5. 打开`/easy-vben/easy-api/pom.xml`，在`dependencies`添加以下内容
+5. 打开`/easy-vben/easy-api/pom.xml`，在`dependencies`添加以下内容
 
 ```xml
 <dependency>

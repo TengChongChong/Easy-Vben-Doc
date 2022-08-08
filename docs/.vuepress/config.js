@@ -21,7 +21,7 @@ module.exports = {
     algolia: {
       appId: 'H8MDE4NQJV',
       apiKey: '388efbfb54ea08842f3702f55d015457',
-      indexName: 'Easy Vben',
+      indexName: 'easy-vben',
       algoliaOptions: {
         hitsPerPage: 10,
         facetFilters: ""

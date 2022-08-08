@@ -25,8 +25,12 @@ footerWrap:
     link: https://github.com/TengChongChong/Easy-Vben
   - title: Easy Vben Admin
     link: https://github.com/TengChongChong/Easy-Vben-Admin
-- headline: Ant Designt
+- headline: 友情链接
   items:
+  - title: Easy Admin
+    link: http://ea-doc.easy-frame.top/
+  - title: Easy Frame
+    link: http://www.easy-frame.top/
   - title: Ant Design of Vue
     link: https://www.antdv.com/docs/vue/introduce-cn/
   - title: Vben Admin
