@@ -1,15 +1,15 @@
 module.exports = [
     {
         title: '指南',
-		collapsable: false,
+        collapsable: false,
         children: [
             {
                 title: '介绍',
-				path: '/front-end/guide/introduction',
+                path: '/front-end/guide/introduction',
             },
             {
                 title: '开始',
-				path: '/front-end/guide/',
+                path: '/front-end/guide/',
             },
             {
                 title: '项目配置',
@@ -47,159 +47,225 @@ module.exports = [
     },
     {
         title: '组件',
-		collapsable: false,
+        collapsable: false,
         children: [
             {
                 title: '前言',
                 path: '/front-end/components/introduction',
             },
             {
-                title: '常用组件',
+                title: '通用',
+                collapsable: false,
                 children: [
                     {
-                        title: 'Basic',
-                        path: '/front-end/components/basic',
+                        title: 'BasicArrow - 箭头',
+                        path: '/front-end/components/common/basic-arrow',
                     },
                     {
-                        title: 'Page',
-                        path: '/front-end/components/page',
+                        title: 'BasicHelp - 帮助按钮',
+                        path: '/front-end/components/common/basic-help',
                     },
                     {
-                        title: 'Icon',
-                        path: '/front-end/components/icon',
+                        title: 'BasicTitle - 帮助标题',
+                        path: '/front-end/components/common/basic-title',
                     },
                     {
-                        title: 'Authority',
-                        path: '/front-end/components/auth',
+                        title: 'Icon - 图标',
+                        path: '/front-end/components/common/icon',
                     },
                     {
-                        title: 'Form',
-                        path: '/front-end/components/form',
+                        title: 'SvgIcon - Svg图标',
+                        path: '/front-end/components/common/svg-icon',
                     },
                     {
-                        title: 'Table',
-                        path: '/front-end/components/table',
+                        title: 'PageFooter - 页面底部工具栏',
+                        path: '/front-end/components/common/page-footer',
                     },
                     {
-                        title: 'PopConfirmButton',
-                        path: '/front-end/components/pop-confirm-button',
+                        title: 'PageWrapper - 包裹页面',
+                        path: '/front-end/components/common/page-wrapper',
                     },
                     {
-                        title: 'CollapseContainer',
-                        path: '/front-end/components/collapse-container',
+                        title: 'PopConfirmButton - 按钮&确认',
+                        path: '/front-end/components/common/pop-confirm-button',
+                    },
+                ]
+            },
+            {
+                title: '数据录入',
+                collapsable: false,
+                children: [
+                    {
+                        title: 'CodeEditor - 代码编辑器',
+                        path: '/front-end/components/input/code-editor',
                     },
                     {
-                        title: 'ScrollContainer',
-                        path: '/front-end/components/scroll-container',
+                        title: 'Cropper - 图片剪裁',
+                        path: '/front-end/components/input/cropper',
                     },
                     {
-                        title: 'LazyContainer',
-                        path: '/front-end/components/lazy-container',
+                        title: 'DictCascader - 字典级联选择',
+                        path: '/front-end/components/input/dict-cascader',
                     },
                     {
-                        title: 'CodeEditor',
-                        path: '/front-end/components/code-editor',
+                        title: 'DictCheckbox - 字典多选框',
+                        path: '/front-end/components/input/dict-checkbox',
                     },
                     {
-                        title: 'JsonPreview',
-                        path: '/front-end/components/json-preview',
+                        title: 'DictRadio - 字典单选框',
+                        path: '/front-end/components/input/dict-radio',
                     },
                     {
-                        title: 'CountDown',
-                        path: '/front-end/components/count-down',
+                        title: 'DictSelect - 字典下拉选择器',
+                        path: '/front-end/components/input/dict-select',
+                    },
+                    {
+                        title: 'Form - 表单',
+                        path: '/front-end/components/input/form',
+                    },
+                    {
+                        title: 'IconPicker - 图标选择',
+                        path: '/front-end/components/input/icon-picker',
+                    },
+                    {
+                        title: 'Markdown - Markdown',
+                        path: '/front-end/components/input/markdown',
+                    },
+                    {
+                        title: 'StrengthMeter - 密码强度',
+                        path: '/front-end/components/input/strength-meter',
+                    },
+                    {
+                        title: 'Tinymce - 富文本编辑器',
+                        path: '/front-end/components/input/tinymce',
+                    },
+                    {
+                        title: 'Upload - 文件上传',
+                        path: '/front-end/components/input/upload',
+                    },
+                ]
+            },
+            {
+                title: '数据显示',
+                collapsable: false,
+                children: [
+                    {
+                        title: 'CollapseContainer - 折叠卡片',
+                        path: '/front-end/components/display/collapse-container',
+                    },
+                    {
+                        title: 'CountDown - 倒计时',
+                        path: '/front-end/components/display/count-down',
+                    },
+                    {
+                        title: 'CountTo - 数字动画',
+                        path: '/front-end/components/display/count-to',
+                    },
+                    {
+                        title: 'Description - 描述列表',
+                        path: '/front-end/components/display/desc',
+                    },
+                    {
+                        title: 'DictName - 字典名称',
+                        path: '/front-end/components/display/dict-name',
+                    },
+                    {
+                        title: 'DictTag - 字典标签',
+                        path: '/front-end/components/display/dict-tag',
+                    },
+                    {
+                        title: 'FlowChart - 流程图',
+                        path: '/front-end/components/display/flow-chart',
+                    },
+                    {
+                        title: 'JsonPreview - Json预览',
+                        path: '/front-end/components/display/json-preview',
+                    },
+                    {
+                        title: 'Qrcode - 二维码',
+                        path: '/front-end/components/display/qrcode',
+                    },
+                    {
+                        title: 'Table - 表格',
+                        path: '/front-end/components/display/table',
+                    },
+                    {
+                        title: 'Time - 相对时间',
+                        path: '/front-end/components/display/time',
+                    },
+                    {
+                        title: 'Tree - 树',
+                        path: '/front-end/components/display/tree',
                     },
 
+                ]
+            },
+            {
+                title: '反馈',
+                collapsable: false,
+                children: [
                     {
-                        title: 'ClickOutSide',
-                        path: '/front-end/components/click-out-side',
+                        title: 'Drawer - 抽屉',
+                        path: '/front-end/components/feedback/drawer',
                     },
                     {
-                        title: 'CountTo',
-                        path: '/front-end/components/count-to',
+                        title: 'Loading - 加载中',
+                        path: '/front-end/components/feedback/loading',
                     },
                     {
-                        title: 'Cropper',
-                        path: '/front-end/components/cropper',
+                        title: 'Modal - 对话框',
+                        path: '/front-end/components/feedback/modal',
                     },
                     {
-                        title: 'Description',
-                        path: '/front-end/components/desc',
+                        title: 'Verify - 拖动校验',
+                        path: '/front-end/components/feedback/verify',
                     },
                     {
-                        title: 'Drawer',
-                        path: '/front-end/components/drawer',
+                        title: 'VirtualScroll - 虚拟滚动',
+                        path: '/front-end/components/feedback/virtual-scroll',
+                    },
+                ]
+            },
+            {
+                title: '其他',
+                collapsable: false,
+                children: [
+                    {
+                        title: 'Authority - 权限',
+                        path: '/front-end/components/other/auth',
                     },
                     {
-                        title: 'Modal',
-                        path: '/front-end/components/modal',
+                        title: 'ClickOutSide - 元素外点击',
+                        path: '/front-end/components/other/click-out-side',
                     },
                     {
-                        title: 'FlowChart',
-                        path: '/front-end/components/flow-chart',
+                        title: 'LazyContainer - 懒加载',
+                        path: '/front-end/components/other/lazy-container',
                     },
                     {
-                        title: 'Upload',
-                        path: '/front-end/components/upload',
+                        title: 'ScrollContainer - 滚动容器',
+                        path: '/front-end/components/other/scroll-container',
                     },
                     {
-                        title: 'Tree',
-                        path: '/front-end/components/tree',
+                        title: 'Transition - 动画',
+                        path: '/front-end/components/other/transition',
                     },
-                    {
-                        title: 'Excel',
-                        path: '/front-end/components/excel',
-                    },
-                    {
-                        title: 'Qrcode',
-                        path: '/front-end/components/qrcode',
-                    },
-                    {
-                        title: 'Markdown',
-                        path: '/front-end/components/markdown',
-                    },
-                    {
-                        title: 'Loading',
-                        path: '/front-end/components/loading',
-                    },
-                    {
-                        title: 'Tinymce',
-                        path: '/front-end/components/tinymce',
-                    },
-                    {
-                        title: 'Time',
-                        path: '/front-end/components/time',
-                    },
-                    {
-                        title: 'StrengthMeter',
-                        path: '/front-end/components/strength-meter',
-                    },
-                    {
-                        title: 'Verify',
-                        path: '/front-end/components/verify',
-                    },
-                    {
-                        title: 'Transition',
-                        path: '/front-end/components/transition',
-                    },
-                    {
-                        title: 'VirtualScroll',
-                        path: '/front-end/components/virtual-scroll',
-                    },
-                ],
+                ]
             },
             {
                 title: '函数式组件',
+                collapsable: false,
                 children: [
                     {
-                        title: 'ContitleMenu',
+                        title: 'ContextMenu - 右键菜单',
                         path: '/front-end/components/functional/context-menu',
                     },
                     {
-                        title: 'Loading',
+                        title: 'Loading - 加载中',
                         path: '/front-end/components/functional/loading',
                     },
                     {
-                        title: 'Preview',
+                        title: 'Preview - 图片预览',
                         path: '/front-end/components/functional/preview',
                     },
                 ],
@@ -208,7 +274,7 @@ module.exports = [
     },
     {
         title: '深入',
-		collapsable: false,
+        collapsable: false,
         children: [
             {
                 title: '跨域处理',
@@ -234,7 +300,7 @@ module.exports = [
     },
     {
         title: '其他',
-		collapsable: false,
+        collapsable: false,
         children: [
             {
                 title: '常见问题',
@@ -243,10 +309,6 @@ module.exports = [
             {
                 title: '常见疑点',
                 path: '/front-end/other/doubt',
-            },
-            {
-                title: '测试服务',
-                path: '/front-end/other/server',
             },
         ],
     },

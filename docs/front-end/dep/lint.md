@@ -90,9 +90,7 @@ commit-lint 的配置位于项目根目录下 **commitlint.config.js**
 ### 示例
 
 ```bash
-
 git commit -m 'feat(home): add home page'
-
 ```
 
 ## Stylelint
@@ -144,7 +142,6 @@ git hook 一般结合各种 lint，在 git 提交代码的时候进行代码风�
 ```bash
 # 删除husky依赖即可
 yarn remove huksy
-
 ```
 
 ### 如何跳过某一个检查

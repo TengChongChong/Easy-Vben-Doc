@@ -19,25 +19,25 @@ module.exports = [
     text: '问题反馈',
     items: [
       {
-        text: '前端',
-        link: 'https://github.com/TengChongChong/Easy-Vben-Admin/issues'
+        text: 'Easy Vben - 后端',
+        link: 'https://github.com/TengChongChong/Easy-Vben/issues'
       },
       {
-        text: '后端',
-        link: 'https://github.com/TengChongChong/Easy-Vben/issues'
+        text: 'Easy Vben Admin - 前端',
+        link: 'https://github.com/TengChongChong/Easy-Vben-Admin/issues'
       },
     ]
   },
   {
-    text: '下载',
+    text: 'GitHub',
     items: [
       {
-        text: '前端',
-        link: 'https://github.com/TengChongChong/Easy-Vben-Admin'
+        text: 'Easy Vben - 后端',
+        link: 'https://github.com/TengChongChong/Easy-Vben'
       },
       {
-        text: '后端',
-        link: 'https://github.com/TengChongChong/Easy-Vben'
+        text: 'Easy Vben Admin - 前端',
+        link: 'https://github.com/TengChongChong/Easy-Vben-Admin'
       },
     ]
   },

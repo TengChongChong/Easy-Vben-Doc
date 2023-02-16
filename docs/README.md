@@ -19,7 +19,7 @@ features:
 footer: MIT Licensed | Copyright © 2021 CC <a href="http://beian.miit.gov.cn/" target="_blank">苏ICP备19030909号</a>
 footerColumn: 4
 footerWrap:
-- headline: 下载
+- headline: GitHub
   items:
   - title: Easy Vben
     link: https://github.com/TengChongChong/Easy-Vben

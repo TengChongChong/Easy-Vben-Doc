@@ -3,6 +3,10 @@ module.exports = [
 		title: '简介',
 		path: '/built-in/',
 	},
+	{
+		title: '代码生成',
+		path: '/built-in/generate',
+	},
 	// {
 	// 	title: '权限管理',
 	// 	collapsable: false,
